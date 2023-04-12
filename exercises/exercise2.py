@@ -64,8 +64,10 @@ variable_05 = 100
 
 # COMPLETAR - INICIO
 
-
-#resultado= variable_03
+resultado = variable_01 or variable_02 or not variable_04 or (variable_05 and variable_03)
+if resultado:
+    resultado = 80
+print(resultado)
 
 #print(resultado)
 # COMPLETAR - FIN
